@@ -104,6 +104,11 @@ public class CountryActivity extends AppCompatActivity implements ViewPager.OnPa
         ganadoresLista[posicionGroupo][posicion] = boton.getTag().toString();
     }
 
+    public void botonDos (View view) {
+        Intent I = new Intent(this, grupoDos.class);
+        startActivity(I);
+    }
+
     public void terminarPrediccion(View view){
         if(!validateDataToSend()){
             Toast.makeText(this, "Debes predecr TODOS los grupos", Toast.LENGTH_LONG).show();

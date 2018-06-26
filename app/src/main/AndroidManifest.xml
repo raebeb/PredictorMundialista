@@ -16,7 +16,15 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
-        <activity android:name=".OtherActivity"></activity>
+        <activity android:name=".OtherActivity" />
+        <activity android:name=".grupoDos" />
+        <activity android:name=".Porcentaje" />
+        <activity android:name=".porcentaje_a" />
+        <activity android:name=".porcentaje_b" />
+        <activity
+            android:name=".porcentaje_c"
+            android:label="@string/title_activity_porcentaje_c"
+            android:theme="@style/AppTheme.NoActionBar" />
     </application>
 
 </manifest>
