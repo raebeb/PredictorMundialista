@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/fondo"
-    tools:context=".porcentaje_c"
+    tools:context=".porcentaje_d"
     tools:layout_editor_absoluteY="81dp">
 
     <ImageView
@@ -19,7 +19,7 @@
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.741"
-        app:srcCompat="@drawable/francia_full" />
+        app:srcCompat="@drawable/argentina_full" />
 
     <TextView
         android:id="@+id/textView3"
@@ -42,7 +42,7 @@
         android:layout_marginStart="84dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView3"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/australia_full" />
+        app:srcCompat="@drawable/islandia_full" />
 
     <ImageView
         android:id="@+id/imageView3"
@@ -52,7 +52,7 @@
         android:layout_marginStart="84dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView4"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/peru_full" />
+        app:srcCompat="@drawable/croacia_full" />
 
     <ImageView
         android:id="@+id/imageView4"
@@ -62,7 +62,7 @@
         android:layout_marginStart="84dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:srcCompat="@drawable/dinamarca_full" />
+        app:srcCompat="@drawable/nigeria_full" />
 
     <TextView
         android:id="@+id/textView4"
@@ -108,5 +108,4 @@
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.491"
         app:layout_constraintStart_toEndOf="@+id/imageView4" />
-
 </android.support.constraint.ConstraintLayout>

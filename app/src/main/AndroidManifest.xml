@@ -25,6 +25,11 @@
             android:name=".porcentaje_c"
             android:label="@string/title_activity_porcentaje_c"
             android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".porcentaje_d" />
+        <activity android:name=".porcentaje_e" />
+        <activity android:name=".porcentaje_f" />
+        <activity android:name=".porcentaje_g" />
+        <activity android:name=".porcentaje_h"></activity>
     </application>
 
 </manifest>
