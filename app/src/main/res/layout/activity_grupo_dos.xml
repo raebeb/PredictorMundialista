@@ -9,49 +9,125 @@
 
     <TextView
         android:id="@+id/textView2"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="285dp"
+        android:layout_height="96dp"
+        android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
         android:layout_marginTop="76dp"
         android:fontFamily="sans-serif-smallcaps"
-        android:text="Ingrese Grupo"
+        android:text="Seleccione un grupo"
         android:textAlignment="center"
         android:textAllCaps="true"
         android:textSize="36sp"
         android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintHorizontal_bias="0.506"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
-
-    <EditText
-        android:id="@+id/editText"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginEnd="8dp"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="88dp"
-        android:ems="10"
-        android:hint="Grupo"
-        android:inputType="text"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.503"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/textView2" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.024" />
 
     <Button
-        android:id="@+id/button7"
+        android:id="@+id/botonD"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="64dp"
+        android:onClick="porcentajeD"
+        android:text="D"
+        app:layout_constraintBottom_toTopOf="@+id/botonF"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/botonC"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="porcentajeC"
+        android:text="C"
+        app:layout_constraintBottom_toTopOf="@+id/botonE"
+        app:layout_constraintEnd_toStartOf="@+id/botonD"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botonF"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="64dp"
+        android:onClick="porcentajeF"
+        android:text="F"
+        app:layout_constraintBottom_toTopOf="@+id/botonH"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/botonH"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="64dp"
+        android:onClick="porcentajeH"
+        android:text="H"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+
+    <Button
+        android:id="@+id/botonE"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="porcentajeE"
+        android:text="E"
+        app:layout_constraintBottom_toTopOf="@+id/botonG"
+        app:layout_constraintEnd_toStartOf="@+id/botonF"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botonG"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="80dp"
+        android:layout_marginEnd="8dp"
+        android:layout_marginStart="8dp"
+        android:onClick="porcentajeG"
+        android:text="G"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/botonH"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <Button
+        android:id="@+id/botonB"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="8dp"
+        android:layout_marginEnd="64dp"
+        android:layout_marginTop="8dp"
+        android:onClick="porcentajeB"
+        android:text="B"
+        app:layout_constraintBottom_toTopOf="@+id/botonD"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
+    <Button
+        android:id="@+id/botonA"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginBottom="8dp"
         android:layout_marginEnd="8dp"
         android:layout_marginStart="8dp"
-        android:layout_marginTop="108dp"
-        android:text="Ver"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
+        android:layout_marginTop="8dp"
+        android:onClick="porcentajeA"
+        android:text="A"
+        app:layout_constraintBottom_toTopOf="@+id/botonC"
+        app:layout_constraintEnd_toStartOf="@+id/botonB"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editText"
-        app:layout_constraintVertical_bias="0.078" />
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.942" />
+
 </android.support.constraint.ConstraintLayout>
